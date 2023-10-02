@@ -1,16 +1,23 @@
 ![|300](http://pic.rmb.bdstatic.com/bjh/92d1daf78d96dcb10b3351f808a9021c.png)
 # 一、课程目标
 1.了解Xposed原理及发展
+
 2.从0到1编写xposed模块
+
 3.配置ubuntu的逆向环境
+
 4.了解xposed的常用Api
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.jadx-gui
+
 3.雷电模拟器
+
 4.vmware
+
 5.Android Studio
 
 # 三、课程内容
@@ -43,25 +50,39 @@ Xposed是一款可以在不修改APK的情况下影响程序运行的框架，�
 ## 4.Xposed可以做什么？
 
 1.修改app布局:[上帝模式](https://github.com/kaisar945/Xposed-GodMode)
+
 2.劫持数据，修改参数值、返回值、主动调用等。例:微信防撤回、步数修改、一键新机
 [应用变量](https://github.com/kingsollyu/AppEnv)
 ![](http://pic.rmb.bdstatic.com/bjh/7c151d078e0c180a9c51dfd50b26c4d6.png)
+
 3.自动化操作，例:微信抢红包
 ![|300](http://pic.rmb.bdstatic.com/bjh/04ea10cee93fed63a897374f30454fbc.png)
 
 学习项目:
 ![|300](http://pic.rmb.bdstatic.com/bjh/446f8d3dd904807ec67410eb40c0e185.png)
+
 [2022 最好的Xposed模块: GravityBox, Pixelify, XPrivacyLua](https://www.xda-developers.com/best-xposed-modules/)
+
 [基于Xposed的抖音爬虫，抖音风控后自动一键新机，模拟一个全新的运行环境](https://github.com/Lstaynight/xposed-dy)
+
 [基于xposed的frida持久化方案](https://github.com/svengong/xcubebase)
+
 [A Xposed Module for Android Penetration Test, with NanoHttpd.](https://github.com/monkeylord/XServer)
+
 [GravityBox](https://github.com/GravityBox/GravityBox)
+
 [Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)]
+
 [一个旨在使QQ变得更好用的开源Xposed模块](https://github.com/ferredoxin/QNotified)
+
 [杜比大喇叭](https://github.com/nining377/dolby_beta)
+
 [知乎去广告Xposed模块](https://github.com/shatyuka/Zhiliao)
+
 [哔哩漫游](https://github.com/yujincheng08/BiliRoaming)
+
 [曲境](https://github.com/Mocha-L/QuJing)
+
 [自动化创建Xposed模块及钩子，让Xposed模块编写时只需关注钩子实现](https://github.com/monkeylord/XposedTemplateForAS)
 
 ## 5.Xpposed环境配置
@@ -218,8 +239,11 @@ XposedHelpers.findAndHookMethod(Application.class, "attach", Context.class, new 
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节
@@ -241,7 +265,9 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 # 八、参考文档
 
 [[原创]Xposed Hook技巧，代理abstract](https://bbs.kanxue.com/thread-260484.htm)
+
 [[原创]Xposed callMethod 如何传入接口参数](https://bbs.kanxue.com/thread-257100.htm)
+
 [[原创]源码编译（2）——Xopsed源码编译详解](https://bbs.kanxue.com/thread-269616.htm#msg_header_h2_0)
 
 

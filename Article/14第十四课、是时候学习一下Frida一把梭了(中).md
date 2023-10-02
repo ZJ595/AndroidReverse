@@ -2,14 +2,19 @@
 # 一、课程目标
 
 1.配置objection环境
+
 2.了解objection常用Api
+
 3.了解frida_java_trace工具分析控制流混淆
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.jadx-gui
+
 3.VS Code
+
 4.IDLE
 
 # 三、课程内容
@@ -17,6 +22,7 @@
 ## 1.objection
 ### 1.什么是objection
 objection是基于frida的命令行hook集合工具, 可以让你不写代码, 敲几句命令就可以对java函数的高颗粒度hook, 还支持RPC调用。可以实现诸如内存搜索、类和模块搜索、方法hook打印参数返回值调用栈等常用功能，是一个非常方便的，逆向必备、内存漫游神器。
+
 [项目地址](https://github.com/sensepost/objection)
 ### 2.objection环境配置
 已不更新，要和frida的版本匹配
@@ -221,6 +227,7 @@ android hooking watch class_method 类名.方法名
 ### 对抗方法
 1. ZenTracer
 [项目地址](https://github.com/hluwa/ZenTracer)
+
 缺点:无法打印调用栈，无法`hook`构造函数
 ![图片](https://pic.rmb.bdstatic.com/bjh/f45308a95f466b7f2288c9f03aed90bc8183.png)
 ```
@@ -245,6 +252,7 @@ frida-tools==9.2.4
 
 2. r0tracer
 [项目地址](https://github.com/r0ysue/r0tracer)
+
 兼容最新版本
 ![图片](https://pic.rmb.bdstatic.com/bjh/057447279037dfcbc1b27773d51ea7126180.png)
 
@@ -268,10 +276,12 @@ frida-tools==9.2.4
 
 # 六、视频及课件地址
 
-
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节

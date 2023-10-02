@@ -76,7 +76,7 @@ function hookTest1(){
 function hookTest2(){
     Java.perform(function(){
         //根据导出函数名打印地址
-        var helloAddr = Module.findExportByName("lib52pojie.so","Java_com_xiaojianbang_app_NativeHelper_add");
+        var helloAddr = Module.findExportByName("lib52pojie.so","Java_com_zj_wuaipojie_util_SecurityUtil_checkVip");
         console.log(helloAddr); 
         if(helloAddr != null){
 	        //Interceptor.attach是Frida里的一个拦截器

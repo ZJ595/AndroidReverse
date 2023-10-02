@@ -38,9 +38,13 @@
 2.  允许 Android 市场和设备校验 APK 的正确性。
 
 Android 目前支持以下四种应用签名方案：
+
 	v1 方案：基于 JAR 签名。
+ 
 	v2 方案：APK 签名方案 v2（在 Android 7.0 中引入）
+ 
 	v3 方案：APK 签名方案 v3（在 Android 9 中引入）
+ 
 	v4 方案：APK 签名方案 v4（在 Android 11 中引入）
 
 V1 签名的机制主要就在 META-INF 目录下的三个文件，MANIFEST.MF，ANDROID.SF，ANDROID.RSA，他们都是 V1 签名的产物。

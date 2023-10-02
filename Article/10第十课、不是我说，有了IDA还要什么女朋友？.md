@@ -2,17 +2,25 @@
 # 一、课程目标
 
 1.初识ELF文件格式、常见节区
+
 2.了解NDK开发，写一个简单的so
+
 3.学习IDA Pro工具的使用来分析so文件
+
 4.通过学习ARM基础知识，能进行简单的修改
-5.通过Chatgpt&IDA快速分析二进制文件**
+
+5.通过Chatgpt&IDA快速分析二进制文件
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.MT管理器/NP管理器
+
 3.IDA Pro
+
 4.雷电模拟器
+
 5.Android Studio
 
 
@@ -366,8 +374,11 @@ Obsidian主题：
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节
@@ -390,11 +401,18 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 
 
 [官方NDK入门案例](https://developer.android.com/ndk/guides?hl=zh-cn)
+
 [ARM汇编入门指南](https://zhuanlan.zhihu.com/p/388683540)
+
 [ARM汇编基础详解](https://blog.csdn.net/weixin_45309916/article/details/107837561)
+
 [Android so(ELF)文件解析](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1282554)
+
 [小米学安卓逆向一 - NDK开发(1)](https://bbs.kanxue.com/thread-267367.htm)
+
 [WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT)
+
 [工具使用-IDA从入门到理解](https://bbs.kanxue.com/thread-266021.htm)
+
 [什么是NDK开发（一）](https://blog.csdn.net/weixin_34583170/article/details/94864797)
 

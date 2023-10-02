@@ -1,16 +1,23 @@
 ![|500](http://pic.rmb.bdstatic.com/bjh/9502d04fe683e2e0775f0eea93924366.gif)
 # 一、课程目标
 1.了解Xposed常用API以及妙用
+
 2.借助lspatch实现免root注入
+
 3.SimpleHook快速hook
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.MT管理器/NP管理器
+
 3.算法助手
+
 4.jadx-gui
+
 5.simplehook
+
 6.Android Studio
 
 # 三、课程内容
@@ -240,18 +247,25 @@ XposedHelpers.findAndHookMethod("com.zj.wuaipojie.ui.ChallengeSixth", lpparam.cl
 ## Xposed模块patch
 
 [LSPatch](https://github.com/LSPosed/LSPatch)
+
 ![](http://pic.rmb.bdstatic.com/bjh/072712a5b22db342388d6d48c6c04786.png)
+
 PS:最低支持安卓9
 
 
 ## Xposed快速Hook
 [SimpleHook](https://github.com/littleWhiteDuck/SimpleHook)
+
 ![](http://pic.rmb.bdstatic.com/bjh/14fa2f859dff8270661317c87ff31bc5.png)
+
 [jshook](https://github.com/Xposed-Modules-Repo/me.jsonet.jshook)
+
 ## Xpsode源码
 
 [XPOSED魔改一：获取特征](https://www.52pojie.cn/thread-1149210-1-1.html)
+
 [Lsposed 技术原理探讨 && 基本安装使用](https://www.52pojie.cn/thread-1694093-1-1.html)
+
 [[原创]源码编译（2）——Xopsed源码编译详解](https://bbs.kanxue.com/thread-269616.htm#msg_header_h2_0)
 
 #  四、课后小作业
@@ -260,6 +274,7 @@ PS:最低支持安卓9
 
 # 五、答疑
 提一嘴，我感觉肯定会有人问我的as怎么跟他的不一样，那是因为我用了一些插件。插件入口：左上角File->Settings->Plugins，在这里可以搜索并安装你想安装的插件，以下是我用的插件
+
 ![](http://pic.rmb.bdstatic.com/bjh/91014da5df72d045bdc9fcc522e8591c.png)
 ![](http://pic.rmb.bdstatic.com/bjh/dee2255c9aee5991068d78d00574c251.png)
 
@@ -267,8 +282,11 @@ PS:最低支持安卓9
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节

@@ -54,5 +54,6 @@
 
 ## Stargazers over time
 
-![](https://starchart.cc/ZJ595/AndroidReverse.svg)
+[![Stargazers over time](https://starchart.cc/ZJ595/AndroidReverse.svg)](https://starchart.cc/ZJ595/AndroidReverse)
+
 

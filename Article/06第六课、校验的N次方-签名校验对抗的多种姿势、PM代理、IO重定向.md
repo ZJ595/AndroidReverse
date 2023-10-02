@@ -46,10 +46,13 @@ Android 目前支持以下四种应用签名方案：
 V1 签名的机制主要就在 META-INF 目录下的三个文件，MANIFEST.MF，ANDROID.SF，ANDROID.RSA，他们都是 V1 签名的产物。
 （1）MANIFEST.MF：这是摘要文件。程序遍历Apk包中的所有文件(entry)，对非文件夹非签名文件的文件，逐个用SHA1(安全哈希算法)生成摘要信息，再用Base64进行编码。如果你改变了apk包中的文件，那么在apk安装校验时，改变后的文件摘要信息与MANIFEST.MF的检验信息不同，于是程序就不能成功安装。
 ![](http://pic.rmb.bdstatic.com/bjh/1d7ab639d33cce3e5d833dd68ce90f56.png)
+
 （2）c.SF：这是对摘要的签名文件。对前一步生成的MANIFEST.MF，使用SHA1-RSA算法，用开发者的私钥进行签名。在安装时只能使用公钥才能解密它。解密之后，将它与未加密的摘要信息（即，MANIFEST.MF文件）进行对比，如果相符，则表明内容没有被异常修改。
 ![](http://pic.rmb.bdstatic.com/bjh/e9ec81f588d2f36b4864db4eb7527eb4.png)
+
 （3）ANDROID.RSA文件中保存了公钥、所采用的加密算法等信息。
 ![](http://pic.rmb.bdstatic.com/bjh/4f081fbd5d9cc7007c8e69a30a54066d.png)
+
 在某些情况下，直接对apk进行v1签名可以绕过apk的签名校验
 
 v2方案会将 APK 文件视为 blob，并对整个文件进行签名检查。对 APK 进行的任何修改（包括对 ZIP 元数据进行的修改）都会使 APK 签名作废。这种形式的 APK 验证不仅速度要快得多，而且能够发现更多种未经授权的修改。
@@ -99,10 +102,14 @@ private boolean SignCheck() {
 ## 4.签名校验对抗
 
 方法一:核心破解插件，不签名安装应用
+
 方法二:一键过签名工具，例如MT、NP、ARMPro、CNFIX、Modex的去除签名校验功能
+
 方法三:具体分析签名校验逻辑(手撕签名校验)
+
 方法四:io重定向--VA&SVC：ptrace+seccomp
 [SVC的TraceHook沙箱的实现&无痕Hook实现思路](https://bbs.pediy.com/thread-273160.htm)
+
 方法五:去作者家严刑拷打拿到.jks文件和密码
 
 ## 5.手动实现PM代理
@@ -390,8 +397,11 @@ Java_com_zj_wuaipojie_util_SecurityUtil_hook(JNIEnv *env, jclass clazz, jobject 
 ### root检测：
 反制手段
 1.算法助手、对话框取消等插件一键hook
+
 2.分析具体的检测代码
+
 3.利用IO重定向使文件不可读
+
 4.修改Andoird源码，去除常见指纹
 
 ```kotlin
@@ -749,6 +759,7 @@ PS:推荐学习芽衣大神的手撕签名校验教程
 1.手动实现PM代{过}{滤}理  
 2.移植我的重定向代码(要学会偷代码！)
 ![图片](https://pic.rmb.bdstatic.com/bjh/8b9292b5d889c38f1202491d80ca9a732735.png)
+
 3.完成作业demo的校验  
 [点击下载](https://wwqi.lanzoub.com/iKt5G0jkvhtc)
 

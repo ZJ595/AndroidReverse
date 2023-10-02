@@ -2,12 +2,15 @@
 # 一、课程目标
 
 1.了解Frida-Native-Hook
+
 2.借助ida脚本实现一键式hook
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.jadx-gui
+
 3.VS Code
 
 # 三、课程内容
@@ -223,6 +226,7 @@ function hookTest6(){
 
 ## 7.Hook_dlopen
 [dlopen源码](http://aospxref.com/android-8.0.0_r36/xref/bionic/libdl/libdl.c?r=&mo=4035&fi=101#101)
+
 [android_dlopen_ext源码](http://aospxref.com/android-8.0.0_r36/xref/bionic/libdl/libdl.c#146)
 
 ```js
@@ -251,12 +255,10 @@ function hook_dlopen() {
 
 ## 8.借助IDA脚本实现一键式hook
 ![图片](https://pic.rmb.bdstatic.com/bjh/a5da95feb308079617adbee3cfae85357280.png)
+
 [IDA&Frida 学习](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1759879&highlight=frida)
 
-#  四、课后小作业
 
-
-[作业反馈贴](https://www.52pojie.cn/thread-1706783-1-1.html)
 # 五、答疑
 
 待更新
@@ -265,8 +267,11 @@ function hook_dlopen() {
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节
@@ -288,5 +293,7 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 
 # 八、参考文档
 [FRIDA-API使用篇：rpc、Process、Module、Memory使用方法及示例](https://www.anquanke.com/post/id/195215)
+
 [IDA&Frida 学习](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1759879&highlight=frida)
+
 [Frida Hook 常用函数、java 层 hook、so 层 hook、RPC、群控](https://blog.csdn.net/freeking101/article/details/112634649)

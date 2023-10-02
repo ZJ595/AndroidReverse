@@ -1,15 +1,20 @@
 ![|500](https://pic.rmb.bdstatic.com/bjh/13975df155153ae785b86e901db44d921765.png)
 # 一、课程目标
 1.配置frida环境，了解frida原理
+
 2.从0到1编写frida脚本
+
 3.了解frida的常用Api
 
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.jadx-gui
+
 3.雷电模拟器
+
 4.VS Code
 
 # 三、课程内容
@@ -40,8 +45,11 @@ frida注入的原理就是找到目标进程,使用ptrace跟踪目标进程获�
 
 ### 1.安装Python与VS Code
 [下载python](https://www.python.org/downloads/windows/)
+
 ![](https://pic.rmb.bdstatic.com/bjh/7db57bb7af605621210756bc21aa9b674367.png)
+
 [下载VS Code](https://code.visualstudio.com/)
+
 汉化:在插件搜索Chinese，选择第一个插件安装重启即可
 ### 2.虚拟环境的env的安装
 1.  安装环境
@@ -60,7 +68,9 @@ pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 配置代码提示
 ### 4.push Frida-server
 [点击下载](https://github.com/frida/frida)
+
 PS:版本一定要对应！！！
+
 ![图片](https://pic.rmb.bdstatic.com/bjh/24a6bd098ba2f33600cd53a0aefef3505230.png)
 ## 5.Frida基础知识
 
@@ -343,8 +353,11 @@ ClassName.privateFunc();
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节

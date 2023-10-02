@@ -206,8 +206,11 @@ invoke-static {对应寄存器}, Lcom/mtools/LogUtils;->v(Ljava/lang/Object;)V
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节
@@ -228,5 +231,7 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 # 八、参考文档
 
 [Android修改ro.debuggable 的四种方法](https://blog.csdn.net/jinmie0193/article/details/111355867)
+
 [Log简易打印工具，超简单的调用方法](https://www.52pojie.cn/thread-411454-1-1.html)
+
 [JEB动态调试Smali-真机/模拟器（详细，新手必看）](https://www.52pojie.cn/thread-1598242-1-1.html)

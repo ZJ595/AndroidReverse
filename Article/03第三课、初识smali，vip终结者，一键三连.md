@@ -22,7 +22,9 @@
 # 三、课程内容
 ## 1.什么是JVM、Dalvik、ART
 JVM是JAVA虚拟机，运行JAVA字节码程序
+
 Dalvik是Google专门为Android设计的一个虚拟机，Dalvik有专属的文件执行格式dex(Dalvik executable)
+
 Art(Android Runtime)相当于Dalvik的升级版，本质与Dalvik无异
 
 ## 2.smali及其语法
@@ -248,6 +250,9 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 # 八、参考文档
 
 [ 移动安全Android逆向系列：Dalvik概念&破解实例](https://forum.butian.net/share/649)
+
 [【原木文章】Android改造者之路-02.初探smali功法](https://www.52pojie.cn/thread-1485681-1-1.html)
+
 [吾爱破解安卓逆向入门教程（三）---深入Smali文件](https://www.52pojie.cn/thread-396966-1-1.html)  
+
 [吾爱破解安卓逆向入门教程（四）---Smali函数分析](https://www.52pojie.cn/thread-397858-1-1.html)

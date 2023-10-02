@@ -51,4 +51,8 @@
 [15第十五课、是时候学习一下Frida一把梭了(下)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/15%E7%AC%AC%E5%8D%81%E4%BA%94%E8%AF%BE%E3%80%81%E6%98%AF%E6%97%B6%E5%80%99%E5%AD%A6%E4%B9%A0%E4%B8%80%E4%B8%8BFrida%E4%B8%80%E6%8A%8A%E6%A2%AD%E4%BA%86(%E4%B8%8B).md)
 
 
-![](https://starchart.cc/ZJ595/AndroidReverse.svg)](https://starchart.cc/ZJ595/AndroidReverse)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/ZJ595/AndroidReverse.svg)](https://starchart.cc/ZJ595/AndroidReverse)
+

@@ -2,16 +2,23 @@
 # 一、课程目标
 
 1.了解APK文件签名
+
 2.了解APK常见校验及校验对抗方法
+
 3.了解PM代理和IO重定向
+
 4.smali语法之赋值
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.MT管理器/NP管理器
+
 3.雷电模拟器
+
 4.Jadx-gui(第三课课件里有)
+
 5.算法助手(第四课课件里有)
 
 # 三、课程内容
@@ -753,8 +760,11 @@ PS:推荐学习芽衣大神的手撕签名校验教程
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节
@@ -777,9 +787,15 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 
 
 [APK 签名：v1 v2 v3 v4](https://blog.csdn.net/weixin_46569059/article/details/120307144)
+
 [如何把签名校验做到极致](https://github.com/gtf35/how-to-check-sign)
+
 [Android PMS HOOK](https://www.jianshu.com/p/C559852c4878)
+
 [[实战破解]白描-动态代{过}{滤}理Hook签名校验](https://www.52pojie.cn/thread-1526854-1-1.html)
+
 [[原创]对安卓反调试和校验检测的一些实践与结论](https://bbs.pediy.com/thread-268155.htm)
+
 [新版MT去签及对抗](https://github.com/L-JINBIN/ApkSignatureKillerEx)
+
 [【小白教程】正则匹配的写法 多行匹配 批量赋值 smali逆向 简单实用](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1288443)

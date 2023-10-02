@@ -1,15 +1,21 @@
 ![|500](http://pic.rmb.bdstatic.com/bjh/6662c1557c35c098361cf868274174e5.png)
 # 一、课程目标
 1.配置java环境
+
 2.了解并掌握动态调试
+
 3.了解并掌握Log插桩
 
 # 二、工具
 
 1.教程Demo
+
 2.MT管理器/NP管理器
+
 3.jeb
+
 4.雷电模拟器
+
 5.XappDebug
 
 # 三、课程内容

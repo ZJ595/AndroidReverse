@@ -1,0 +1,83 @@
+# 一.什么是安卓逆向？  
+
+安卓逆向是对已经打包好的APP进行反编译、源码分析了解APP实现逻辑的一门技术  
+# 二.安卓逆向可以干嘛？  
+
+去更新  
+去广告  
+内购/会员破解  
+协议自动签到  
+白嫖！！！  
+拜托，会逆向的人超酷的好嘛  
+  
+# 三.适合人群  
+
+小白、零基础人群  
+先来一碗鸡汤：改天是哪天，下次是哪次，以后是多久，去经历，去后悔。保持热爱，奔赴山海。我们都在奔赴各自不同的人生！！！  
+  
+# 四.教程简介  
+
+参考之前发的  
+[《关于我在吾爱破解论坛学安卓逆向这档事》预告](https://www.52pojie.cn/thread-1692384-1-1.html)  
+PS:我不是程序员，安卓逆向只是兴趣，可能讲的不好，还请各位大佬多多包涵。另外本教程只是个基础的，并没有什么含金量。所以，如果能帮到一些新朋友培养起对安卓逆向的兴趣，那已经是物尽其用了。  
+# 五.Magisk介绍  
+
+![](![](https://img.lxtx.top/i/2022/09/18/63266b32aea82.png))  
+Magisk 是一套用于定制 Android 的开源软件，支持高于 Android 5.0 的设备。  
+  
+以下是一些功能亮点：  
+  
+-   **MagiskSU**：为应用程序提供 root 访问权限  
+-   **Magisk 模块**：通过安装模块修改只读分区  
+-   **MagiskHide**：从根检测 / 系统完整性检查中隐藏 Magisk(Shamiko)  
+-   **MagiskBoot** : 最完整的安卓启动镜像解包和重新打包工具  
+  
+  
+  
+# 六.安装步骤  
+
+  
+1.到官网下载9.0模拟器，并安装  
+https://www.ldmnq.com/  
+  
+[更新!]适用于几乎所有安卓模拟器(7+)安装magisk的教程-简单无脑向  
+https://www.52pojie.cn/thread-1583586-1-1.html  
+(出处: 吾爱破解论坛)  
+  
+  
+2.下载配置文件  
+  
+3.安装面具  
+  
+# 七.答疑  
+
+Magisk刷不上  
+ 
+这种情况可能是你下的是最新版雷电模拟器，需要在设置里把读写权限打开  
+
+  
+# 八.视频及课件地址  
+
+[百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)  
+[阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)  
+[哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV)  
+  
+# 九.后续更新地址  
+
+  
+[《安卓逆向这档事》二、初识APK文件结构、双开、汉化、基础修改](https://www.52pojie.cn/thread-1695796-1-1.html)  
+[《安卓逆向这档事》三、初识smail，vip终结者](https://www.52pojie.cn/thread-1701353-1-1.html)    
+[《安卓逆向这档事》四、恭喜你获得广告&弹窗静默卡](https://www.52pojie.cn/thread-1706691-1-1.html)  
+[《安卓逆向这档事》五、1000-7=？&动态调试&Log插桩](https://www.52pojie.cn/thread-1714727-1-1.html)  
+[《安卓逆向这档事》六、校验的N次方-签名校验对抗、PM代{过}{滤}理、IO重定向](https://www.52pojie.cn/thread-1731181-1-1.html)  
+[《安卓逆向这档事》七、Sorry，会Hook真的可以为所欲为-Xposed快速上手(上)模块编写,常用Api](https://www.52pojie.cn/thread-1740944-1-1.html)  
+[《安卓逆向这档事》八、Sorry，会Hook真的可以为所欲为-xposed快速上手(下)快速hook](https://www.52pojie.cn/thread-1748081-1-1.html)  
+[《安卓逆向这档事》九、密码学基础、算法自吐、非标准加密对抗](https://www.52pojie.cn/thread-1762225-1-1.html)  
+[《安卓逆向这档事》十、不是我说，有了IDA还要什么女朋友？](https://www.52pojie.cn/thread-1787667-1-1.html)  
+[《安卓逆向这档事》十二、大佬帮我分析一下](https://www.52pojie.cn/thread-1809646-1-1.html)  
+[《安卓逆向这档事》番外实战篇1-某电影视全家桶](https://www.52pojie.cn/thread-1814917-1-1.html)  
+[《安卓逆向这档事》十三、是时候学习一下Frida一把梭了(上)](https://www.52pojie.cn/thread-1823118-1-1.html)  
+[《安卓逆向这档事》十四、是时候学习一下Frida一把梭了(中)](https://www.52pojie.cn/thread-1838539-1-1.html)  
+  
+  
+PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压

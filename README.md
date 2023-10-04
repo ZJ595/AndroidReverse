@@ -5,7 +5,7 @@
 路过的师傅们，帮忙点个小星星！
 # 在线观看
 
-<iframe height="600" width="600" src="https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=473864742&bvid=BV1wT411N7sV&cid=855797172&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 # 目录
 

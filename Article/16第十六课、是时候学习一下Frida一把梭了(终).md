@@ -293,8 +293,11 @@ PS:珍惜表哥说dexlib2也能混淆对抗，效果比jeb的还强大
 
 
 [百度云](https://pan.baidu.com/s/1cFWTLn14jeWfpXxlx3syYw?pwd=nqu9)
+
 [阿里云](https://www.aliyundrive.com/s/TJoKMK6du6x)
+
 [哔哩哔哩](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+
 PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载exe文件，双击自解压
 
 # 七、其他章节

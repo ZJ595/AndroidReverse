@@ -2,28 +2,38 @@
 
 # 题外话(盗课后续)
 吃瓜地址:https://www.52pojie.cn/thread-1854492-1-1.html
+
 盗版课程地址:https://www.mashibing.com/live/2520
 
 ![img](https://pic.rmb.bdstatic.com/bjh/bb1e9696cffc6368f24605e2beb99f16502.png)
 ![img](https://pic.rmb.bdstatic.com/bjh/d3cdcddccaaf1eba5e437f1ea8c458939121.png)
 ![img](https://pic.rmb.bdstatic.com/bjh/006f2041e717d32f007ac202d9bd245d4025.png)
+
 PS:感谢北京金诚同达（沈阳）律师事务所-黄律师一直无偿帮我解疑
 
 吾爱破解论坛官方B站号:https://space.bilibili.com/544451485
+
 我的B站号:https://space.bilibili.com/337859280
+
 《安卓逆向这档事》视频教程地址:https://www.bilibili.com/video/BV1wT411N7sV
+
 教程开源地址:https://github.com/ZJ595/AndroidReverse
 # 一、课程目标
 
 1.了解Frida-Native-Hook读写、主动调用
+
 2.了解常见的frida_trace工具
+
 3.了解控制流混淆对抗新思路
 
 # 二、工具
 
 1.教程Demo(更新)
+
 2.jadx-gui
+
 3.VS Code
+
 4.jeb
 
 # 三、课程内容
@@ -43,10 +53,15 @@ if (file_handle && file_handle != null) {
 什么是inlinehook？
 Inline hook（内联钩子）是一种在程序运行时修改函数执行流程的技术。**它通过修改函数的原始代码，将目标函数的执行路径重定向到自定义的代码段，从而实现对目标函数的拦截和修改。**
 简单来说就是可以对任意地址的指令进行hook读写操作
+
 常见inlinehook框架:
+
 [Android-Inline-Hook](https://github.com/ele7enxxh/Android-Inline-Hook)
+
 [whale](https://github.com/asLody/whale)
+
 [Dobby](https://github.com/jmpews/Dobby)
+
 [substrate](http://www.cydiasubstrate.com/)
 
 PS：Frida的inlinehook不是太稳定，崩溃是基操，另外新版的frida兼容性会比较好
@@ -78,6 +93,7 @@ var codeAddr = Instruction.parse(soAddr.add(0x10428));
 console.log(codeAddr.toString());
 ```
 2. Frida Api
+
 [arm转hex](https://armconverter.com/)
 ```js
 var soAddr = Module.findBaseAddress("lib52pojie.so");
@@ -147,12 +163,15 @@ jni的主动调用
 |           Stalker        |    frida官方提供的代码跟踪引擎，可以在Native层方法级别，块级别，指令级别实现代码修改，代码跟踪                                                                         |    [Stalker](https://frida.re/docs/stalker/)                                                                   |
 | sktrace           | 类似 ida 指令 trace 功能                                                     | [sktrace](https://github.com/bmax121/sktrace)                          |
 | frida-qbdi-tracer | 速度比frida stalker快，免补环境                                              | [frida-qbdi-tracer](https://github.com/lasting-yang/frida-qbdi-tracer) |
+
 PS:这次介绍的几款工具都是基础用法，更深入的还需要大家去看看源码学习
 
 ### 4.1 frida-trace
 [官方文档](https://frida.re/docs/frida-trace/)
+
 frida-trace 可以一次性监控一堆函数地址。还能打印出比较漂亮的树状图，不仅可以显示调用流程，还能显示调用层次。并且贴心的把不同线程调用结果用不同的颜色区分开了。
 大佬整理的文档:
+
 [frida-trace](https://crifan.github.io/reverse_debug_frida/website/use_frida/frida_trace/)
 ```
 D:\> frida-trace.exe --help  
@@ -194,6 +213,7 @@ D:\> frida-trace.exe --help
 ```
 
 - `-i` / `-a`: 跟踪 C 函数或 so 库中的函数。
+
 PS:-a 包含模块+偏移跟踪，一般用于追踪未导出函数，例子：-a "lib52pojie.so!0x4793c"
 
 包含/排除模块或函数：
@@ -229,11 +249,17 @@ pip install jnitrace==3.3.0
 jnitrace -m attach -l lib52pojie.so com.zj.wuaipojie -o trace.json //attach模式附加52pojie.so并输出日志
 ```
 `-l libnative-lib.so`- 用于指定要跟踪的库
+
 `-m <spawn|attach>`- 用于指定要使用的 Frida 附加机制
+
 `-i <regex>`- 用于指定应跟踪的方法名称，例如，`-i Get -i RegisterNatives`将仅包含名称中包含 Get 或 RegisterNatives 的 JNI 方法
+
 `-e <regex>`- 用于指定跟踪中应忽略的方法名称，例如，`-e ^Find -e GetEnv`将从结果中排除所有以 Find 开头或包含 GetEnv 的 JNI 方法名称
+
 `-I <string>`- 用于指定应跟踪的库的导出
+
 `-E <string>`用于指定不应跟踪的库的导出
+
 `-o path/output.json`- 用于指定`jnitrace`存储所有跟踪数据的输出路径
 
 ![图片](https://pic.rmb.bdstatic.com/bjh/6030c0c3518cca31e9a9651dadc2875f7693.png)
@@ -246,10 +272,15 @@ python sktrace.py -m attach -l lib52pojie.so -i 0x103B4 com.zj.wuaipojie
 ![图片](https://pic.rmb.bdstatic.com/bjh/2316edaea1d4685375ef7ecb0104f9196857.png)
 ## 5.控制流混淆对抗新发现
 [细品sec2023安卓赛题](https://bbs.kanxue.com/thread-278648.htm)
+
 [JEB Decompiler 5.5.0.202311022109 mod by CXV](https://bbs.kanxue.com/thread-279456.htm)
+
 PS：注意jdk的版本要高于17，不然打不开
+
 [下载地址](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+
 恐怖如斯的效果对比图:
+
 ![图片](https://pic.rmb.bdstatic.com/bjh/9f23f5f8dc5bb2f1c7b14f2ad406c7891341.png)
 
 PS:珍惜表哥说dexlib2也能混淆对抗，效果比jeb的还强大
@@ -286,9 +317,15 @@ PS:解压密码都是52pj，阿里云由于不能分享压缩包，所以下载e
 # 八、参考文档
 
 [Trace大盘点](https://blog.csdn.net/fenfei331/article/details/123523182)
+
 [[原创]frida-qbdi-tracer](https://bbs.kanxue.com/thread-276523.htm)
+
 [优化jnitrace以及增强信息打印](https://blog.seeflower.dev/archives/82/)
+
 [jnitrace、frida-trace、Stalker、sktrace、Frida Native Trace、r0tracer、strace、IDA trace、Unidbg Trace](https://blog.csdn.net/freeking101/article/details/129645787)
+
 [Frida Stalker - Tracing binary instructions](https://www.youtube.com/watch?v=BgICyi2H2CU)
+
 [frida hook so层方法大全](https://blog.csdn.net/weixin_38819889/article/details/122535920)
+
 [Inline HOOK](https://blog.csdn.net/Tandy12356_/article/details/130898669)

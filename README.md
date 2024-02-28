@@ -5,7 +5,7 @@
 路过的师傅们，帮忙点个小星星！
 # 在线观看
 
-[![](https://pic.rmb.bdstatic.com/bjh/9fa626afac76ce38386a510dc71a78682196.png)](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+[![](_assets/9fa626afac76ce38386a510dc71a78682196.png)](https://www.bilibili.com/video/BV1wT411N7sV/)
 
 # 目录
 

@@ -756,7 +756,7 @@ const/4 $1 0x1
 隐式签名校验  
 有一些则比较隐晦，在发现apk被修改后，会偷偷修改apk的部分功能，例如在某些多开定位软件中，会暗改ip的经纬网等，跟实际产生一定的偏差。
 PS:推荐学习芽衣大神的手撕签名校验教程
-![](https://img.lxtx.top/i/2022/08/27/6309aacece01c.png)
+![](https://attach.52pojie.cn/forum/202212/29/103358lyvv78yxjzjvctvb.png)
 [点击学习](https://www.52pojie.cn/home.php?mod=space&uid=874154&do=thread&view=me&from=space)
 
 #  四、课后小作业

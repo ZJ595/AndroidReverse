@@ -1,4 +1,4 @@
-![|400](http://pic.rmb.bdstatic.com/bjh/0805127fa851ed69cc1b88602b4e030f.png)
+![|400](_assets_02/0805127fa851ed69cc1b88602b4e030f.webp)
 
 # 一、课程目标
 
@@ -58,7 +58,7 @@ apk 全称 Android Package，它相当于一个压缩文件，只要在电脑上
 
 ### 流程图
 <font color=#ED7001>这里还需要注意的是，如果要直装应用，那就应该先签名安装，看看是否有签名校验导致的闪退</font>
-![|800](http://pic.rmb.bdstatic.com/bjh/cb35179c3ff8786b19fc1d2d2ecae12e.png)
+![|800](_assets_02/cb35179c3ff8786b19fc1d2d2ecae12e.webp)
 
 ## 4.初识AndroidMainfest.xml
 ---

@@ -1,4 +1,4 @@
-![|500](https://pic.rmb.bdstatic.com/bjh/13975df155153ae785b86e901db44d921765.png)
+![|500](_assets_13/13975df155153ae785b86e901db44d921765.webp)
 # 一、课程目标
 1.配置frida环境，了解frida原理
 
@@ -46,7 +46,7 @@ frida注入的原理就是找到目标进程,使用ptrace跟踪目标进程获�
 ### 1.安装Python与VS Code
 [下载python](https://www.python.org/downloads/windows/)
 
-![](https://pic.rmb.bdstatic.com/bjh/7db57bb7af605621210756bc21aa9b674367.png)
+![](_assets_13/7db57bb7af605621210756bc21aa9b674367.webp)
 
 [下载VS Code](https://code.visualstudio.com/)
 
@@ -71,7 +71,7 @@ pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 PS:版本一定要对应！！！
 
-![图片](https://pic.rmb.bdstatic.com/bjh/24a6bd098ba2f33600cd53a0aefef3505230.png)
+![图片](_assets_13/24a6bd098ba2f33600cd53a0aefef3505230.webp)
 ## 5.Frida基础知识
 
 ### 1.基础指令

@@ -1,4 +1,4 @@
-![|500](https://pic.rmb.bdstatic.com/bjh/13975df155153ae785b86e901db44d921765.png)
+![|500](_assets_15/13975df155153ae785b86e901db44d921765.webp)
 # 一、课程目标
 
 1.了解Frida-Native-Hook
@@ -254,7 +254,7 @@ function hook_dlopen() {
 ```
 
 ## 8.借助IDA脚本实现一键式hook
-![图片](https://pic.rmb.bdstatic.com/bjh/a5da95feb308079617adbee3cfae85357280.png)
+![图片](_assets_15/a5da95feb308079617adbee3cfae85357280.webp)
 
 [IDA&Frida 学习](https://www.52pojie.cn/forum.php?mod=viewthread&tid=1759879&highlight=frida)
 

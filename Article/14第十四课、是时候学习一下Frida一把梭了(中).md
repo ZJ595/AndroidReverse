@@ -1,4 +1,4 @@
-![|500](https://pic.rmb.bdstatic.com/bjh/13975df155153ae785b86e901db44d921765.png)
+![|500](_assets_14/13975df155153ae785b86e901db44d921765.webp)
 # 一、课程目标
 
 1.配置objection环境
@@ -122,7 +122,7 @@ function  android_logger_get_id                 0x72e0be8270
 function  android_logger_set_prune_list         0x72e0be8948
 ```
 3. android hooking list activities -查看内存中加载的activity   /android hooking list services -查看内存中加载的services
-![图片](https://pic.rmb.bdstatic.com/bjh/149aa38a7e5ef7ea0a4f1e2cfa0815a66608.png)
+![图片](_assets_14/149aa38a7e5ef7ea0a4f1e2cfa0815a66608.webp)
 4. android intent launch_activity 类名 -启动`activity`或`service`(可以用于一些没有验证的activity,在一些简单的ctf中有时候可以出奇效)
 5. 关闭ssl校验  android sslpinning disable
 6. 关闭root检测  android root disable
@@ -220,8 +220,8 @@ android hooking watch class_method 类名.方法名
 
 # 2.trace实战java控制流混淆
 样本展示:
-![图片](https://pic.rmb.bdstatic.com/bjh/a7d36d5536989c6662d83cd3b69fa840277.png)
-![图片](https://pic.rmb.bdstatic.com/bjh/6f038189728ce1e3ca2b7a590a4693534680.png)
+![图片](_assets_14/a7d36d5536989c6662d83cd3b69fa840277.webp)
+![图片](_assets_14/6f038189728ce1e3ca2b7a590a4693534680.webp)
 项目地址:
 [BlackObfuscator](https://github.com/CodingGay/BlackObfuscator)
 ### 对抗方法
@@ -229,7 +229,7 @@ android hooking watch class_method 类名.方法名
 [项目地址](https://github.com/hluwa/ZenTracer)
 
 缺点:无法打印调用栈，无法`hook`构造函数
-![图片](https://pic.rmb.bdstatic.com/bjh/f45308a95f466b7f2288c9f03aed90bc8183.png)
+![图片](_assets_14/f45308a95f466b7f2288c9f03aed90bc8183.webp)
 ```
 因为以长久不更新，故新版frida不兼容，下面是我跑起来的版本
 python==3.8.8
@@ -254,7 +254,7 @@ frida-tools==9.2.4
 [项目地址](https://github.com/r0ysue/r0tracer)
 
 兼容最新版本
-![图片](https://pic.rmb.bdstatic.com/bjh/057447279037dfcbc1b27773d51ea7126180.png)
+![图片](_assets_14/057447279037dfcbc1b27773d51ea7126180.webp)
 
 ```js
 

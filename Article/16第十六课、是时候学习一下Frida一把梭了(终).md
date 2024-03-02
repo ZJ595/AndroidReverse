@@ -1,13 +1,13 @@
-![|500](https://pic.rmb.bdstatic.com/bjh/13975df155153ae785b86e901db44d921765.png)
+![|500](_assets_16/13975df155153ae785b86e901db44d921765.webp)
 
 # 题外话(盗课后续)
 吃瓜地址:https://www.52pojie.cn/thread-1854492-1-1.html
 
 盗版课程地址:https://www.mashibing.com/live/2520
 
-![img](https://pic.rmb.bdstatic.com/bjh/bb1e9696cffc6368f24605e2beb99f16502.png)
-![img](https://pic.rmb.bdstatic.com/bjh/d3cdcddccaaf1eba5e437f1ea8c458939121.png)
-![img](https://pic.rmb.bdstatic.com/bjh/006f2041e717d32f007ac202d9bd245d4025.png)
+![img](_assets_16/bb1e9696cffc6368f24605e2beb99f16502.webp)
+![img](_assets_16/d3cdcddccaaf1eba5e437f1ea8c458939121.webp)
+![img](_assets_16/006f2041e717d32f007ac202d9bd245d4025.webp)
 
 PS:感谢北京金诚同达（沈阳）律师事务所-黄律师一直无偿帮我解疑
 
@@ -236,7 +236,7 @@ Java 方法跟踪：
 frida-trace -U -F -I "lib52pojie.so" -i "Java_" #附加当前进程并追踪lib52pojie.so里的所有Java_开头的jni导出函数
 ```
 
-![图片](https://pic.rmb.bdstatic.com/bjh/288c4c7447228d803b9355891be976457415.png)
+![图片](_assets_16/288c4c7447228d803b9355891be976457415.webp)
 
 ### 4.2jnitrace
 前提
@@ -262,14 +262,14 @@ jnitrace -m attach -l lib52pojie.so com.zj.wuaipojie -o trace.json //attach模�
 
 `-o path/output.json`- 用于指定`jnitrace`存储所有跟踪数据的输出路径
 
-![图片](https://pic.rmb.bdstatic.com/bjh/6030c0c3518cca31e9a9651dadc2875f7693.png)
+![图片](_assets_16/6030c0c3518cca31e9a9651dadc2875f7693.webp)
 
 ### 4.3sktrace
 ```
 python sktrace.py -m attach -l lib52pojie.so -i 0x103B4 com.zj.wuaipojie
 ```
 
-![图片](https://pic.rmb.bdstatic.com/bjh/2316edaea1d4685375ef7ecb0104f9196857.png)
+![图片](_assets_16/2316edaea1d4685375ef7ecb0104f9196857.webp)
 ## 5.控制流混淆对抗新发现
 [细品sec2023安卓赛题](https://bbs.kanxue.com/thread-278648.htm)
 
@@ -281,7 +281,7 @@ PS：注意jdk的版本要高于17，不然打不开
 
 恐怖如斯的效果对比图:
 
-![图片](https://pic.rmb.bdstatic.com/bjh/9f23f5f8dc5bb2f1c7b14f2ad406c7891341.png)
+![图片](_assets_16/9f23f5f8dc5bb2f1c7b14f2ad406c7891341.webp)
 
 PS:珍惜表哥说dexlib2也能混淆对抗，效果比jeb的还强大
 

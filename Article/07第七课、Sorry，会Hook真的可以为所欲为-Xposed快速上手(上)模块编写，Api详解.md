@@ -1,4 +1,4 @@
-![|300](http://pic.rmb.bdstatic.com/bjh/92d1daf78d96dcb10b3351f808a9021c.png)
+![|300](_assets_07/92d1daf78d96dcb10b3351f808a9021c.webp)
 # 一、课程目标
 1.了解Xposed原理及发展
 
@@ -30,7 +30,7 @@ Xposed是一款可以在不修改APK的情况下影响程序运行的框架，�
 
 用自己实现的**app_process**替换掉了系统原本提供的**app_process**，加载一个额外的jar包，入口从原来的：  **com.android.internal.osZygoteInit.main()被替换成了：  de.robv.android.xposed.XposedBridge.main()**，  
 创建的Zygote进程就变成Hook的Zygote进程了，从而完成对zygote进程及其创建的Dalvik/ART虚拟机的劫持(zytoge注入)
-![](http://pic.rmb.bdstatic.com/bjh/ad601470ed9b3277ac4f2921374ee046.png)
+![](_assets_07/ad601470ed9b3277ac4f2921374ee046.webp)
 
 ## 3.Xposed的发展及免root框架
 
@@ -53,13 +53,13 @@ Xposed是一款可以在不修改APK的情况下影响程序运行的框架，�
 
 2.劫持数据，修改参数值、返回值、主动调用等。例:微信防撤回、步数修改、一键新机
 [应用变量](https://github.com/kingsollyu/AppEnv)
-![](http://pic.rmb.bdstatic.com/bjh/7c151d078e0c180a9c51dfd50b26c4d6.png)
+![](_assets_07/7c151d078e0c180a9c51dfd50b26c4d6.webp)
 
 3.自动化操作，例:微信抢红包
-![|300](http://pic.rmb.bdstatic.com/bjh/04ea10cee93fed63a897374f30454fbc.png)
+![|300](_assets_07/04ea10cee93fed63a897374f30454fbc.webp)
 
 学习项目:
-![|300](http://pic.rmb.bdstatic.com/bjh/446f8d3dd904807ec67410eb40c0e185.png)
+![|300](_assets_07/446f8d3dd904807ec67410eb40c0e185.webp)
 
 [2022 最好的Xposed模块: GravityBox, Pixelify, XPrivacyLua](https://www.xda-developers.com/best-xposed-modules/)
 

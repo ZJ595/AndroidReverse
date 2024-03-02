@@ -1,4 +1,4 @@
-![|500](http://pic.rmb.bdstatic.com/bjh/9502d04fe683e2e0775f0eea93924366.gif)
+![|500](_assets_08/9502d04fe683e2e0775f0eea93924366.gif)
 # 一、课程目标
 1.了解Xposed常用API以及妙用
 
@@ -248,7 +248,7 @@ XposedHelpers.findAndHookMethod("com.zj.wuaipojie.ui.ChallengeSixth", lpparam.cl
 
 [LSPatch](https://github.com/LSPosed/LSPatch)
 
-![](http://pic.rmb.bdstatic.com/bjh/072712a5b22db342388d6d48c6c04786.png)
+![](_assets_08/072712a5b22db342388d6d48c6c04786.webp)
 
 PS:最低支持安卓9
 
@@ -256,7 +256,7 @@ PS:最低支持安卓9
 ## Xposed快速Hook
 [SimpleHook](https://github.com/littleWhiteDuck/SimpleHook)
 
-![](http://pic.rmb.bdstatic.com/bjh/14fa2f859dff8270661317c87ff31bc5.png)
+![](_assets_08/14fa2f859dff8270661317c87ff31bc5.webp)
 
 [jshook](https://github.com/Xposed-Modules-Repo/me.jsonet.jshook)
 
@@ -275,8 +275,8 @@ PS:最低支持安卓9
 # 五、答疑
 提一嘴，我感觉肯定会有人问我的as怎么跟他的不一样，那是因为我用了一些插件。插件入口：左上角File->Settings->Plugins，在这里可以搜索并安装你想安装的插件，以下是我用的插件
 
-![](http://pic.rmb.bdstatic.com/bjh/91014da5df72d045bdc9fcc522e8591c.png)
-![](http://pic.rmb.bdstatic.com/bjh/dee2255c9aee5991068d78d00574c251.png)
+![](_assets_08/91014da5df72d045bdc9fcc522e8591c.webp)
+![](_assets_08/dee2255c9aee5991068d78d00574c251.webp)
 
 # 六、视频及课件地址
 

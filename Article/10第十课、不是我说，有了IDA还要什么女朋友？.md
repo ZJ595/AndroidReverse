@@ -1,4 +1,4 @@
-![|300](http://pic.rmb.bdstatic.com/bjh/cc9934d4392e49ed2c51e35cf94ab8e2.png)
+![|300](_assets_10/cc9934d4392e49ed2c51e35cf94ab8e2.webp)
 # 一、课程目标
 
 1.初识ELF文件格式、常见节区
@@ -52,8 +52,8 @@ NDK（Native Development Kit）是一套用于开发Android应用程序的工具
 
 步骤：
 1.下载NDK和CMake
-![](https://pic.rmb.bdstatic.com/bjh/666c7661bc9de4a54f730bb789af63f74113.png)
-![](https://pic.rmb.bdstatic.com/bjh/7a7ad0ff5b441646156f6116cbcf8e2a610.png)
+![](_assets_10/666c7661bc9de4a54f730bb789af63f74113.webp)
+![](_assets_10/7a7ad0ff5b441646156f6116cbcf8e2a610.webp)
 2.新建一个项目,往下拉,找到"c++"这个选项
 3.查看CMakeLists.txt和编写native-lib.cpp
 下面是cmakelist.txt和native-lib.cpp文件的作用以及简要说明：
@@ -337,12 +337,12 @@ Patching - [https://github.com/gaasedelen/patching](https://github.com/gaasedel
 
 ### 逻辑运算
 汇编语言的时候也可以使用逻辑运算指令，常用的运算指令用法如表 所示：
-![](http://pic.rmb.bdstatic.com/bjh/35d0832fb2523805c2a2165ec5458caa.png)
+![](_assets_10/35d0832fb2523805c2a2165ec5458caa.webp)
 
 ### 偷懒小插件
 [WPeChatGPT](https://github.com/WPeace-HcH/WPeChatGPT)
 
-![](https://pic.rmb.bdstatic.com/bjh/01f4bf013198aea885d9e513ad5e5eec4798.png)
+![](_assets_10/01f4bf013198aea885d9e513ad5e5eec4798.webp)
 api报错问题，可以参考仓库里的解决方法：
 ```
 pip uninstall urllib3

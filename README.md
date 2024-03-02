@@ -5,7 +5,7 @@
 路过的师傅们，帮忙点个小星星！
 # 在线观看
 
-[![](https://pic.rmb.bdstatic.com/bjh/9fa626afac76ce38386a510dc71a78682196.png)](https://www.bilibili.com/video/BV1wT411N7sV/?spm_id_from=333.788&vd_source=6dde16dc6479f00694baaf73a2225452)
+[![](_assets/9fa626afac76ce38386a510dc71a78682196.png)](https://www.bilibili.com/video/BV1wT411N7sV/)
 
 # 目录
 
@@ -55,7 +55,7 @@
 
 [16第十六课、是时候学习一下Frida一把梭了(终)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/16%E7%AC%AC%E5%8D%81%E5%85%AD%E8%AF%BE%E3%80%81%E6%98%AF%E6%97%B6%E5%80%99%E5%AD%A6%E4%B9%A0%E4%B8%80%E4%B8%8BFrida%E4%B8%80%E6%8A%8A%E6%A2%AD%E4%BA%86(%E7%BB%88).md)
 
-[17第十七课、你的RPCvs佬的RPC](https://github.com/ZJ595/AndroidReverse/blob/main/Article/017%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE.%E4%BD%A0%E7%9A%84RPCvs%E4%BD%AC%E7%9A%84RPC.md)
+[17第十七课、你的RPCvs佬的RPC](https://github.com/ZJ595/AndroidReverse/blob/main/Article/17%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE.%E4%BD%A0%E7%9A%84RPCvs%E4%BD%AC%E7%9A%84RPC.md)
 
 
 

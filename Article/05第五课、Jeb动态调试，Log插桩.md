@@ -1,4 +1,4 @@
-![|500](http://pic.rmb.bdstatic.com/bjh/6662c1557c35c098361cf868274174e5.png)
+![|500](_assets_05/6662c1557c35c098361cf868274174e5.webp)
 # 一、课程目标
 1.配置java环境
 
@@ -62,7 +62,7 @@ android:debuggable="true"
 
 一般来说，在4选项中如果有ro.debuggable那就直接修改
 没有的话就选5
-![](http://pic.rmb.bdstatic.com/bjh/aafaf597b418757a41a89c24897606fe.png)
+![](_assets_05/aafaf597b418757a41a89c24897606fe.webp)
 修改ro.debuggable的值为1
 
 
@@ -197,9 +197,9 @@ invoke-static {对应寄存器}, Lcom/mtools/LogUtils;->v(Ljava/lang/Object;)V
 2.su获取root权限  
 3.props进入设置，其后是大佬教程中的步骤，注意不要在4中设置，哪怕4中有也在5中新建一下，因为4中设置无法选择设置的时期，而5中可以  
 4.重新进入5中设置的ro.debuggable，这时候可以选择设置该参数的时间，我选的延时Delay，Boot Completed之后3秒（随便设的，没测试其他值）
-![图片](https://pic.rmb.bdstatic.com/bjh/d0b83f14677ccee75fdeb7891e1886c95009.png)
+![图片](_assets_05/d0b83f14677ccee75fdeb7891e1886c95009.webp)
 5.重启n次之后进入模拟器，检查参数
-![图片](https://pic.rmb.bdstatic.com/bjh/ff8d9deea26f077ba163581b7baa78e5681.png)
+![图片](_assets_05/ff8d9deea26f077ba163581b7baa78e5681.webp)
 所以我觉得存在一种可能，模块虽然起作用了，但很快又被模拟器重新设回去了，选择较晚期进行设置，存在一点设置成功的可能，大佬可以参考下
 
 # 六、视频及课件地址

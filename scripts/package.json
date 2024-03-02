@@ -1,0 +1,18 @@
+{
+  "name": "androidreverse",
+  "version": "1.0.0",
+  "description": "《安卓逆向这档事》",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

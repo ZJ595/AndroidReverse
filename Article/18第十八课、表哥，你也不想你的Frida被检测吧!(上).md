@@ -1,4 +1,4 @@
-![图片|500](_assets_00\4dc9b4a36e937c443bbce777ada6b57e4327.png)
+![](_assets_00\4dc9b4a36e937c443bbce777ada6b57e4327.png)
 # 一、课程目标
 
 1.了解常见frida检测

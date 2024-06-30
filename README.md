@@ -57,7 +57,10 @@
 
 [17第十七课、你的RPCvs佬的RPC](https://github.com/ZJ595/AndroidReverse/blob/main/Article/17%E7%AC%AC%E5%8D%81%E4%B8%83%E8%AF%BE.%E4%BD%A0%E7%9A%84RPCvs%E4%BD%AC%E7%9A%84RPC.md)
 
-[番外实战篇2-【2024春节】解题领红包活动，启动!](https://github.com/ZJ595/AndroidReverse/blob/main/Article/%E7%95%AA%E5%A4%96%E5%AE%9E%E6%88%98%E7%AF%872-%E3%80%902024%E6%98%A5%E8%8A%82%E3%80%91%E8%A7%A3%E9%A2%98%E9%A2%86%E7%BA%A2%E5%8C%85%E6%B4%BB%E5%8A%A8%EF%BC%8C%E5%90%AF%E5%8A%A8!.md)
+[番外实战篇2-【2024春节】解题领红包活动，启动!](https://github.com/ZJ595/AndroidReverse/blob/main/Article/%E7%95%AA%E5%A4%96%E5%AE%9E%E6%88%98%E7%AF%872-%E3%80%902024%E6%98%A5%E8%8A%82%E3%80%91%E8%A7%A3%E9%A2%98%E9%A2%86%E7%BA%A2%E5%8C%85%E6%B4%BB%E5%8A%A8%EF%BC%8C%E5%90%AF%E5%8A%A8!.md)  
+[18第十八课、表哥，你也不想你的Frida被检测吧!(上)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/18%E7%AC%AC%E5%8D%81%E5%85%AB%E8%AF%BE%E3%80%81%E8%A1%A8%E5%93%A5%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%8D%E6%83%B3%E4%BD%A0%E7%9A%84Frida%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%90%A7!(%E4%B8%8A).md)  
+[19第十九课、表哥，你也不想你的Frida被检测吧!(下)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/19%E7%AC%AC%E5%8D%81%E4%B9%9D%E8%AF%BE%E3%80%81%E8%A1%A8%E5%93%A5%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%8D%E6%83%B3%E4%BD%A0%E7%9A%84Frida%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%90%A7!(%E4%B8%8B).md)  
+
 
 ## Stargazers over time
 

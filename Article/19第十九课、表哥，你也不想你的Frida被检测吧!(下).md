@@ -12,7 +12,7 @@
 
 ## 1.Syscall&SVC&自定义strstr
 在上面的检测对抗中，我们hook了libc.so中的fread、strstr、open等系统函数，但是如果app不讲武德，自实现这些函数，阁下又该如何应对？
-![图片](_assets_19\a706cdbf6ef8fe2814f0db18564378892331.png)
+![](_assets_19\a706cdbf6ef8fe2814f0db18564378892331.png)
 	在用户空间和内核空间之间，有一个叫做Syscall(系统调用, system call)的中间层，是连接用户态和内核态的桥梁。这样即提高了内核的安全型，也便于移植，只需实现同一套接口即可。Linux系统，用户空间通过向内核空间发出Syscall，产生软中断，从而让程序陷入内核态，执行相应的操作。
 	**SVC(软件中断指令)指令**：在ARM架构的系统中，`svc`是一条特殊的指令，它允许用户态的程序发起一个系统调用。当这条指令被执行时，CPU会从用户态切换到内核态，从而允许内核处理这个请求。
 
@@ -26,7 +26,7 @@ Linux操作系统是一个巨大的图书馆，而`syscall`就是这个图书馆
 [[原创]Seccomp技术在Android应用中的滥用与防护](https://bbs.kanxue.com/thread-276585.htm)
 [[原创]批量检测android app的so中是否有svc调用](https://bbs.kanxue.com/thread-269895.htm)
  
-![图片](_assets_19\95a5834b93e0e9b4656b2ee59d3b03f26690.png)
+![](_assets_19\95a5834b93e0e9b4656b2ee59d3b03f26690.png)
 1. 首先当我们长按开机键（电源按钮）开机，此时会引导芯片开始从固化到ROM中的预设代码处执行，然后加载引导程序到RAM。然后启动加载的引导程序，引导程序主要做一些基本的检查，包括RAM的检查，初始化硬件的参数。
 
 2. 到达内核层的流程后，这里初始化一些进程管理、内存管理、加载各种Driver等相关操作，如Camera Driver、Binder Driver 等。下一步就是内核线程，如软中断线程、内核守护线程。下面一层就是Native层，这里额外提一点知识，层于层之间是不可以直接通信的，所以需要一种中间状态来通信。Native层和Kernel层之间通信用的是syscall，Native层和Java层之间的通信是JNI。
@@ -260,12 +260,12 @@ lib52pojie.so要注入的so名称
 优点:无需重打包、灵活性较强
 缺点:需要过root检测，magsik检测
 
-![图片](_assets_19\5d77cb0275b0416dd9108347d069a6543952.png)
+![](_assets_19\5d77cb0275b0416dd9108347d069a6543952.png)
 
 方法三:
 思路:基于jshook封装好的fridainject框架实现hook
 [JsHook](https://github.com/Xposed-Modules-Repo/me.jsonet.jshook)
-![图片](_assets_19\e9b4df380b4d463c8071b32d63fd79474022.png)
+![](_assets_19\e9b4df380b4d463c8071b32d63fd79474022.png)
 ### 3.源码定制方案
 原理:修改aosp源代码,在fork子进程的时候注入frida-gadget
 [ubuntu 20.04系统AOSP(Android 11)集成Frida](https://www.mobibrw.com/2021/28588#/)
@@ -276,7 +276,7 @@ lib52pojie.so要注入的so名称
 1.检测方法签名信息，frida在hook方法的时候会把java方法转为native方法
 2.Frida在attach进程注入SO时会显式地校验ELF_magic字段，不对则直接报错退出进程，可以手动在内存中抹掉SO的magic，达到反调试的效果。
 [检测点](https://github.com/frida/frida-gum/blob/8d9f4578b58c03025aef63652ec4defa19f8061c/gum/backend-linux/gumandroid.c#L876)
-![图片](_assets_19\05021abca85b3171197d0fe3fb67ab6b4981.png)
+![](_assets_19\05021abca85b3171197d0fe3fb67ab6b4981.png)
 ```C
 if (memcmp (GSIZE_TO_POINTER (start), elf_magic, sizeof (elf_magic)) != 0)
     return FALSE;
@@ -292,7 +292,7 @@ while (fgets(line, sizeof(line), fp)) {
 ```
 3.Frida源码中多次调用somain结构体,但它在调用前不会判断是否为空，只要手动置空后Frida一附加就会崩溃
 [检测点](https://github.com/frida/frida-gum/blob/8d9f4578b58c03025aef63652ec4defa19f8061c/gum/backend-linux/gumandroid.c#L1078)
-![图片](_assets_19\6083ea10892635db16bebb2051bde8c15922.png)
+![](_assets_19\6083ea10892635db16bebb2051bde8c15922.png)
 ```C
 somain = api->solist_get_somain ();
 gum_init_soinfo_details (&details, somain, api, &ranges);
@@ -304,7 +304,7 @@ int getsomainoff = findsym("/system/bin/linker64","__dl__ZL6somain");
 *(long*)((char*)start+getsomainoff)=0;
 ```
 4.通常inline hook第一条指令是mov 常数到寄存器，然后第二条是一个br 寄存器指令。检查第二条指令高16位是不是0xd61f,就可以判断目标函数是否被inline hook了！
-![图片](_assets_19\12c3c4392e3cbe98d587338ffaa17b958258.png)
+![](_assets_19\12c3c4392e3cbe98d587338ffaa17b958258.png)
 
 5.还可以去hook加固壳，现在很多加固厂商都antifrida了，从壳中的代码去分析检测思路
 

@@ -31,6 +31,10 @@
 [19第十九课、表哥，你也不想你的Frida被检测吧!(下)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/19%E7%AC%AC%E5%8D%81%E4%B9%9D%E8%AF%BE%E3%80%81%E8%A1%A8%E5%93%A5%EF%BC%8C%E4%BD%A0%E4%B9%9F%E4%B8%8D%E6%83%B3%E4%BD%A0%E7%9A%84Frida%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%90%A7!(%E4%B8%8B).md)  
 [20第二十课、抓包学得好，牢饭吃得饱(上)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/20%E7%AC%AC%E4%BA%8C%E5%8D%81%E8%AF%BE%E3%80%81%E6%8A%93%E5%8C%85%E5%AD%A6%E5%BE%97%E5%A5%BD%EF%BC%8C%E7%89%A2%E9%A5%AD%E5%90%83%E5%BE%97%E9%A5%B1(%E4%B8%8A).md)  
 [番外实战篇3-拨云见日之浅谈Flutter逆向](https://github.com/ZJ595/AndroidReverse/blob/main/Article/%E7%95%AA%E5%A4%96%E5%AE%9E%E6%88%98%E7%AF%873-%E6%8B%A8%E4%BA%91%E8%A7%81%E6%97%A5%E4%B9%8B%E6%B5%85%E8%B0%88Flutter%E9%80%86%E5%90%91.md)  
+[21第二十一课、抓包学得好，牢饭吃得饱(中)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/23%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE%E3%80%81%E6%8A%93%E5%8C%85%E5%AD%A6%E5%BE%97%E5%A5%BD%EF%BC%8C%E7%89%A2%E9%A5%AD%E5%90%83%E5%BE%97%E9%A5%B1(%E4%B8%AD).md)  
+
+# 请作者喝杯咖啡
+![图片](Article/_assets_23/微信图片_20240916205905.jpg)  
 
 ## Stargazers over time
 

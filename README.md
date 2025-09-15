@@ -34,7 +34,7 @@
 [21第二十一课、抓包学得好，牢饭吃得饱(中)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/23%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%80%E8%AF%BE%E3%80%81%E6%8A%93%E5%8C%85%E5%AD%A6%E5%BE%97%E5%A5%BD%EF%BC%8C%E7%89%A2%E9%A5%AD%E5%90%83%E5%BE%97%E9%A5%B1(%E4%B8%AD).md)  
 [22第二十二课、抓包学得好，牢饭吃得饱(下)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/24%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%8C%E8%AF%BE%E3%80%81%E6%8A%93%E5%8C%85%E6%8A%93%E5%BE%97%E5%A5%BD%EF%BC%8C%E7%89%A2%E9%A5%AD%E5%90%83%E5%BE%97%E9%A5%B1(%E4%B8%8B).md)  
 [23第二十三课、黑盒魔法之Unidbg](https://github.com/ZJ595/AndroidReverse/blob/main/Article/25%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E8%AF%BE%E3%80%81%E9%BB%91%E7%9B%92%E9%AD%94%E6%B3%95%E4%B9%8BUnidbg.md)  
-[24第二十四课、Unidbg之补完环境我就睡(上)]([Article/第二十四课、Unidbg之补完环境我就睡(上).md](https://github.com/ZJ595/AndroidReverse/blob/main/Article/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%AF%BE%E3%80%81Unidbg%E4%B9%8B%E8%A1%A5%E5%AE%8C%E7%8E%AF%E5%A2%83%E6%88%91%E5%B0%B1%E7%9D%A1(%E4%B8%8A).md))  
+[24第二十四课、Unidbg之补完环境我就睡(上)](https://github.com/ZJ595/AndroidReverse/blob/main/Article/%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%9B%9B%E8%AF%BE%E3%80%81Unidbg%E4%B9%8B%E8%A1%A5%E5%AE%8C%E7%8E%AF%E5%A2%83%E6%88%91%E5%B0%B1%E7%9D%A1(%E4%B8%8A).md)  
 
 # 请作者喝杯咖啡
 ![图片](Article/_assets_23/微信图片_20240916205905.jpg)  
